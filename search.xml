@@ -24,7 +24,9 @@
   <entry>
     <title>手把手教你从0开始搭建自己的个人博客</title>
     <url>/2021/06/08/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAhexo/</url>
-    <content><![CDATA[<h1 id="手把手教你从0开始搭建自己的个人博客"><a href="#手把手教你从0开始搭建自己的个人博客" class="headerlink" title="手把手教你从0开始搭建自己的个人博客"></a>手把手教你从0开始搭建自己的个人博客</h1><span id="more"></span>
+    <content><![CDATA[<pre><code>手把手教你从0开始搭建自己的个人博客
+</code></pre>
+<span id="more"></span>
 
 <h2 id="第一步下载node-js和git"><a href="#第一步下载node-js和git" class="headerlink" title="第一步下载node.js和git"></a>第一步下载node.js和git</h2><p><a href="https://nodejs.org/en/">node.js官网</a></p>
 <p><a href="https://git-scm.com/download/win">git的官网</a><br><img src="https://img-blog.csdnimg.cn/20210608143159381.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
@@ -47,6 +49,12 @@
 <p><img src="https://img-blog.csdnimg.cn/20210608143726847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">如果还是有错误的话我直接推荐你去开个<code>梯子(vpn)</code>直接安装报错不用管的他会直接下载完用就完事了</p>
 <p>输出<code>hexo s</code> 就可以了<br><img src="https://img-blog.csdnimg.cn/20210608143738131.png#pic_center" alt="在这里插入图片描述"></p>
 <p>进入<code>localhost:4000</code>就部署成功了</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>这是一个测试</title>
+    <url>/2021/06/09/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>这是一个测试</p>
 ]]></content>
   </entry>
 </search>
