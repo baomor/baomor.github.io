@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/06/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><span id="more"></span>
+
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>手把手教你从0开始搭建自己的个人博客</title>
+    <url>/2021/06/08/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAhexo/</url>
+    <content><![CDATA[<h1 id="手把手教你从0开始搭建自己的个人博客"><a href="#手把手教你从0开始搭建自己的个人博客" class="headerlink" title="手把手教你从0开始搭建自己的个人博客"></a>手把手教你从0开始搭建自己的个人博客</h1><span id="more"></span>
+
+<h2 id="第一步下载node-js和git"><a href="#第一步下载node-js和git" class="headerlink" title="第一步下载node.js和git"></a>第一步下载node.js和git</h2><p><a href="https://nodejs.org/en/">node.js官网</a></p>
+<p><a href="https://git-scm.com/download/win">git的官网</a><br><img src="https://img-blog.csdnimg.cn/20210608143159381.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20210608143236635.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>因为win都是无脑安装的所以你自己点下去就没问题</p>
+<p>在cmd下出现输出node -v 出现版本就安装成功了<br><img src="https://img-blog.csdnimg.cn/20210608143421243.png#pic_center" alt="在这里插入图片描述"></p>
+<p>git 安装需要你们进一步学习和了解本人就不深入了因为git安装本身就可以写一篇博客了以后会补上。推荐了解git后来玩hexo</p>
+<h2 id="第二部安装淘宝的cnpm-管理器"><a href="#第二部安装淘宝的cnpm-管理器" class="headerlink" title="第二部安装淘宝的cnpm 管理器"></a>第二部安装淘宝的cnpm 管理器</h2><p>在cmd下安装，安装成功后输出<code>cnpm -v</code>测试安装，基本不是断网都可以安装好</p>
+<p><code>npm install -g cnpm--registry=http://registry.npm.taobao.org    </code></p>
+<p><img src="https://img-blog.csdnimg.cn/20210608143506322.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="安装hexo框架（都是在cmd下完成）"><a href="#安装hexo框架（都是在cmd下完成）" class="headerlink" title="安装hexo框架（都是在cmd下完成）"></a>安装hexo框架（都是在cmd下完成）</h2><p><code>cnpm install -g hexo-cli </code></p>
+<p><img src="https://img-blog.csdnimg.cn/2021060814360726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>本人已经在win下安装过hexo所以我就直接查看</p>
+<p><img src="https://img-blog.csdnimg.cn/2021060814363238.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>不用担心会出现安装失败的情况只有你安装或者断网的情况下</p>
+<h2 id="本地安装hexo"><a href="#本地安装hexo" class="headerlink" title="本地安装hexo"></a>本地安装hexo</h2><p>随便在你的盘上创建一个blog的目录，进入目录<br><img src="https://img-blog.csdnimg.cn/2021060814364710.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20210608143705176.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>进入git bash here 输出<code>hexo init</code>。如果出现以下报错。</p>
+<p>在cmd或者就在git下输入<code>npm rebuild node-sass</code> 或者<code>cnpm rebuild node-sass</code>之后安装就可以了</p>
+<p><img src="https://img-blog.csdnimg.cn/20210608143726847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3BocHZw,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述">如果还是有错误的话我直接推荐你去开个<code>梯子(vpn)</code>直接安装报错不用管的他会直接下载完用就完事了</p>
+<p>输出<code>hexo s</code> 就可以了<br><img src="https://img-blog.csdnimg.cn/20210608143738131.png#pic_center" alt="在这里插入图片描述"></p>
+<p>进入<code>localhost:4000</code>就部署成功了</p>
+]]></content>
+  </entry>
+</search>
